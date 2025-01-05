@@ -1,0 +1,10 @@
+[project]
+name = "agent-apps"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.uv.workspace]
+members = ["experiments/dspy_lab", "experiments/smolagents_lab"]
