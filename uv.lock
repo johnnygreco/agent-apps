@@ -636,12 +636,14 @@ name = "dspy-lab"
 version = "0.1.0"
 source = { virtual = "experiments/dspy_lab" }
 dependencies = [
+    { name = "datasets" },
     { name = "dspy" },
     { name = "jupyter" },
 ]
 
 [package.metadata]
 requires-dist = [
+    { name = "datasets", specifier = ">=3.2.0" },
     { name = "dspy", specifier = ">=2.5.43" },
     { name = "jupyter", specifier = ">=1.1.1" },
 ]
